@@ -37,3 +37,18 @@ let stringNumber = String(NumberS)
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+//***********************************Operations */
+
+let value = 5 
+let negvalue = ++value
+console.log(negvalue);
+
+
+// 2 ** 2 Power 
+// 2 % 6  Reminder / Modulus 
+
+console.log("1" + 5);
+console.log(3 + "2" + 3);
+console.log(3+ 2 +"2");

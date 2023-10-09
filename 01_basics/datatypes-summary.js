@@ -47,3 +47,28 @@ const  myFuncation = function(){
 }
 
 console.log(typeof id);
+
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack ( Primitive), Heap ( Non-Primitive)
+
+let myYoutubename = "sujal.com"
+
+
+let userOne = {
+    email : "thesujal@gmail.com",
+    phone : "98122300033", 
+    Address : "Kathmandu, nayabasti "
+
+}
+
+let userTwo = userOne 
+userOne.email = "tmg@gmail.com"
+console.log(userTwo)
+console.log(userOne)
+userOne.email = "fook@gmail.com"
+userTwo.email = "end@gmail.com"
+console.log(userOne)

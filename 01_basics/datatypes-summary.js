@@ -42,4 +42,8 @@ let myObj = {
 
 console.log(hero);
 
-const = function()
+const  myFuncation = function(){ 
+    console.log("Hello Sabina");
+}
+
+console.log(typeof id);

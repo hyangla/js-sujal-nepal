@@ -9,6 +9,3 @@
 ( (name) => {
     console.log ( 'DB Connected Arrow Funcation ${"hello}' );
 })('Sujal')
-
-
-
